@@ -1,0 +1,7 @@
+tensorflow==2.0
+# metrics
+seqeval==0.0.5
+# tokeniztion
+nltk==3.4.5
+# progress bar
+fastprogress==0.1.21
