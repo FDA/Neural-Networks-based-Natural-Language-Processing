@@ -7,6 +7,7 @@ RE_DIR=../DDI_data/RE_data
 BERT_DIR=../biobert_large_hybrid
 
 # path for output 
+mkdir ../REoutput
 OUTPUT_DIR=../REoutput
 
 # run relation extraction (RE) training and validation script
