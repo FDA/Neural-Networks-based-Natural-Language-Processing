@@ -6,7 +6,8 @@ NER_DIR=../DDI_data/NER_data
 # path to BioBERT model
 BERT_DIR=../biobert_large_hybrid
 
-# path for output 
+# path for output
+mkdir ../NERoutput
 OUTPUT_DIR=../NERoutput
 
 # run named entity recognition (NER) training and validation script
