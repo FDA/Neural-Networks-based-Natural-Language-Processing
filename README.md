@@ -18,8 +18,8 @@ A BioBERT-based NLP model to perform relation extraction (RE) and named entity r
 
 - Download [BioBERT-Large v1.1](http://nlp.dmis.korea.edu/projects/biobert-2020-checkpoints/biobert_large_v1.1_pubmed.tar.gz).  Save as a sub-directory, e.g. 'biobert_large'.
 - Convert TensorFlow version 1 model weights to TensorFlow version 2 model weights; follow procedure in `tf1_convert_tf2.sh`.
-- First, run training and validation for RE step.  To do this, run `myrun_re.py` under `BERT-TF-master` directory.  An example bash script, `example_re.sh`, shows the various command line arguments supplied to `myrun_re.py`.  Output is written in `REoutput` directory.
-- Second, run training and validation for NER step.  To do this, run `myrun_ner.py` under `BERT-TF-master` directory, followed by `myner_detokenize.py` under `BERT-TF-master/biocodes` directory.  An example bash script, `example_ner.sh`, shows the various command line arguments supplied to both these scripts.  Output is written in `NERoutput` directory.
+- First, run training and validation for RE step.  To do this, run `myrun_re.py` under `BERT-TF-master` directory.  An example bash script, `example_re.sh`, shows the various command line arguments supplied to `myrun_re.py`.
+- Second, run training and validation for NER step.  To do this, run `myrun_ner.py` under `BERT-TF-master` directory, followed by `myner_detokenize.py` under `BERT-TF-master/biocodes` directory.  An example bash script, `example_ner.sh`, shows the various command line arguments supplied to both these scripts.
 
 ## Disclaimer
 
